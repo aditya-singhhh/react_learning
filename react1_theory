@@ -1,0 +1,31 @@
+Difference between a Library and Framework?
+
+Both are a set of reusuable codes written by someone else that we can use. But in case library we call it when we need to use it or it's functionality in the code while in case of framework it give to space to specity our own code. Bacially in case of frameworks it opertes the train so it gives less freedom in compare to library to a developer.
+
+What is CDN? Why do we use it?
+
+CDN called Content Delivery Network. It hosts code for major things like JS,etc and help to load the website faster. It basically helps to cache the basic code to user through CDN so that the loading become fast and uses less bandwidth.
+
+Why is React called React?
+
+It is because it's main ability is to react when clicked or any input. Its a frontend library
+
+What is crossorigin in script tag?
+
+It is used to handle CORS reuqest ( Cross Orgin Request) i.e. it is used to request any file or something hosted over another domain. So it is used with script tag while it is also valid on some other tags such as <audio>, <img>, <link>, <video>.
+
+What is diference between React and ReactDOM
+
+Raeact is like the master library used to create element and access other react functionality. While ReactDom is used to manupulate or access DOM basically mostly used for .render() api/function. ReactDom is basically valid for Web only while React is valid for wide range of applications such as Reactnative. Earlier both was in a single libraru but on arrival of ReactNative both were seggerated.
+
+ What is difference between react.development.js and react.production.js files via CDN?
+
+ In react.development.js there was many things such as developer tools, debugging tools which can be used by develooper while development. So it's size is also large and code is bigger than the production one. 
+ Production one is used for actual production as the code is minimal and the size is also small so it can be loaded fast on the final product.
+
+What is async and defer? -
+
+Normally In a website HTML parsing goes on line by lineand when it hits a script tag the HTML parsing stops and script loads and then script executed and then parsing starts again.
+But in case of async the script is loaded while the parsing is also going on i.e. asynchronously and when the script is loaded it just start executed immediately pausing parsing and then again parsing starts.
+While in case of defer the script is loaded while parsing also going on but the script is executed at the last when all parsing is done. So defer can be used to maintain the order of scripts execution.
+
